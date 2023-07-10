@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-custom-version",
+  "version": "1.0.0",
+  "description": "Steps:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  }
+}
