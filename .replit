@@ -56,7 +56,7 @@ ignoredPaths = [".py"]
 [packager.features]
 enabledForHosting = false
 packageSearch = true
-guessImports = true
+guessImports = false
 
 [interpreter]
 
