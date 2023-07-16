@@ -79,6 +79,7 @@ MPLBACKEND = "TkAgg"
 POETRY_CACHE_DIR = "${REPL_HOME}/.cache/pypoetry"
 CHAIN = "ethereum"
 RPC_URL = "https://eth-mainnet.g.alchemy.com/v2/ElKZqR6v4NObY163KwPwmgdVAViq8YCb"
+LICENSE_KEY = "69AB56-9C2F85-B7A2D5-321795-0B8C4A-V3"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config", "venv"]
