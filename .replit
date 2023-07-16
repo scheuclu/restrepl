@@ -51,6 +51,7 @@ type = "request"
 [packager]
 language = "python3"
 ignoredPackages = ["unit_tests"]
+ignoredPaths = [".py"]
 
 [packager.features]
 enabledForHosting = false
