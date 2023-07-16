@@ -77,10 +77,11 @@ PYTHONPATH = "$PYTHONHOME/lib/python3.10:${VIRTUAL_ENV}/lib/python3.10/site-pack
 REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
 MPLBACKEND = "TkAgg"
 POETRY_CACHE_DIR = "${REPL_HOME}/.cache/pypoetry"
+CHAIN = "ethereum"
+RPC_URL = "https://eth-mainnet.g.alchemy.com/v2/ElKZqR6v4NObY163KwPwmgdVAViq8YCb"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config", "venv"]
 
 [deployment]
-run = ["sh", "-c", "python3 main.py"]
-
+run = ["sh", "-c", "poetry run python main.py"]
