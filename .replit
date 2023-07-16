@@ -1,5 +1,6 @@
 entrypoint = "main.py"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+onBoot = "poetry install"
 run = "poetry run python main.py"
 language = "python3"
 
